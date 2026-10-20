@@ -1,0 +1,35 @@
+{
+  "destinoBase": "D:\\Archivos_Organizados",
+  "origenes": [
+    "C:\\Users\\TU_USUARIO\\Downloads",
+    "C:\\Users\\TU_USUARIO\\Desktop"
+  ],
+  "subcarpeta": "anio-mes",
+  "usarFecha": "creacion",
+  "proteccion": [
+    "reglas.json",
+    "movimientos.json",
+    "*.code-workspace",
+    ".gitignore",
+    ".gitattributes"
+  ],
+  "ignorarOcultosSistema": true,
+  "edadMinimaSeg": 2,
+  "esperaEstableMs": 2000,
+  "reintentos": 5,
+  "esperaReintentoMs": 300,
+  "excluirExtensiones": [
+    "crdownload",
+    "part",
+    "tmp",
+    "lnk",
+    "url"
+  ],
+  "categorias": [
+    { "nombre": "Documentos", "extensiones": ["pdf", "docx", "txt", "xlsx", "pptx", "csv"] },
+    { "nombre": "Imágenes", "extensiones": ["png", "jpg", "jpeg", "gif", "svg", "webp"] },
+    { "nombre": "Instaladores", "extensiones": ["exe", "msi"] },
+    { "nombre": "Comprimidos", "extensiones": ["zip", "rar", "7z", "tar.gz"] },
+    { "nombre": "Videos y Música", "extensiones": ["mp4", "mkv", "mp3", "wav"] }
+  ]
+}
