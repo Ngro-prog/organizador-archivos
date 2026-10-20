@@ -1,0 +1,15 @@
+# Artefactos de compilación
+*.exe
+*.o
+*.obj
+
+# Datos locales (config personal, historial e integridad)
+reglas.json
+movimientos.json
+SHA256SUMS.txt
+
+# Carpeta de demostración (datos de ejemplo locales)
+demo/
+
+# Accesos directos de Windows (nombres de PC / rutas personales)
+*.lnk
